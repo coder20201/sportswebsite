@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(43, 131, 182);
     
     color: beige;
     font-size: 15PX;
@@ -10,13 +10,13 @@ body{
     height: 20rem;
     width: 100%;
     position:absolute;
+    padding-bottom: 5rem;
     left:0;
     background-size: cover;
 }
-.navbar{
-    display: inline;
-}
-.navbar li{
+
+.navbar ul li{
+    list-style: none;
     display: inline;
     background: linear-gradient(#10a4d1,#2a82bd);
     width: 100%;
@@ -29,22 +29,34 @@ body{
     height: 30px;
     width:100%;
     text-align: center;
+    padding-right: 5px;
 }
 .bio{
     padding-top: 20rem;
-    height:20rem ;
+    height:30rem ;
     width:100%;
     text-align: center;
+    padding-bottom: 5rem;
     
 
-    background: linear-gradient(rgb(16, 191, 235),blue);
+    background: linear-gradient(rgb(16, 191, 235),rgb(23, 23, 131));
 
 }
 .achivements{
-    background: linear-gradient(rgb(16, 191, 235),blue);
+    background: linear-gradient(rgb(4, 199, 248),blue);
     text-align: center;
 }
-.achivements li{
+.achivements ul li{
     padding-bottom: 20px;
 }
-
+.navbar ul li a {
+    text-transform:capitalize ;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    text-decoration: underline whitesmoke;
+   
+}
